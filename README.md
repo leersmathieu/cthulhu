@@ -1,19 +1,19 @@
-#objectif principale
+# Objectif principale
 
 Conceptualiser une *webapp* qui permet aux membres de partager leur *collection* (livre, jeux, film...) en fonction de leur *localisation*.
 
-###Tache à réaliser
+### Tache à réaliser
 
 [Trouver un nom pour le projet](md/name.md)
 
-####Front End
+#### Front End
 
   - [Making Site structure (MVC)](md/site-structure.md) (en cour)
   - [Partitionnage](md/partition.md)  
   - [Making Proto-Design (responsive)](md/proto-design.md)
  
 
-####Back End
+#### Back End
 
 - [Making DB](md/database.md) (en cour)
   - [User Space](md/user-space.md)
@@ -23,14 +23,14 @@ Conceptualiser une *webapp* qui permet aux membres de partager leur *collection*
     - [Personnal Collection](md/personnal.md)
 
   
-##objectif secondaire
+## Objectif secondaire
 
 
  
 
-##objectif tertiaire ( vision futur )
+## Objectif tertiaire ( vision futur )
 
 
-##Language prévu
+## Language prévu
 
 HTML/SCSS/PHP/JAVASCRIPT/SQL/JSON
