@@ -1,0 +1,9 @@
+// Pour la structure du dossier, voir ici :
+// http://www.thesassway.com/beginner/how-to-structure-a-sass-project
+
+// Importation de la feuille de style pour reseter tous les styles par défaut
+@import url("reset.css");
+
+// Importation des modules et des partials 
+@import "modules/_all";
+@import "partials/_all";

@@ -22,6 +22,7 @@ require(MODELS.'model.php');
   <head>
     <meta charset="utf-8">
     <title>Bidouille Partage</title>
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
 

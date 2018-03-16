@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "AAIA,OAAO,CAAC,gBAAI",
+    "sources": [
+        "style.scss",
+        "modules/_all.scss",
+        "modules/_variables.scss",
+        "modules/_mixins.scss",
+        "partials/_all.scss",
+        "partials/_header.scss",
+        "partials/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
