@@ -2,11 +2,12 @@
 
   class MyController {
     public function action($action) {
+      require VIEWS."header.php";
 
       if($action == "home"){
-        require VIEWS."header.php";
         require VIEWS."home.php";
-        require VIEWS."footer.php";
       }
+
+      require VIEWS."footer.php";
     }
   }
