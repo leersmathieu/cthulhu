@@ -1,4 +1,5 @@
-
 <footer>
-  Bidouille Partage &copy;
+  <div class="container">
+    Bidouille Partage &copy;
+  </div>
 </footer>

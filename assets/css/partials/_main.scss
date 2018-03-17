@@ -1,0 +1,17 @@
+body{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+    
+  background-color: $color-primary-light;
+
+  font-family: $font-main;
+  color: $color-primary-text;
+
+  // overflow: hidden;
+  overflow-x: hidden;
+}
+
+.container{
+  @include position-center;
+}

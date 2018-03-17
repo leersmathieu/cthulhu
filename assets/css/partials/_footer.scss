@@ -1,0 +1,15 @@
+
+footer{
+    // position: absolute;
+    // bottom: 0;
+
+    width: 100%;
+    height: fit-content;
+    min-height: 5%;
+
+    background-color: $color-primary-text;
+
+    font-size: $font-small;
+    text-align: center;
+    color: $color-primary-light;
+}
