@@ -24,7 +24,7 @@ Réaliser la structure du site ( Hiérarchie dossier/fichier incluse)
 
 ### Hiérarchie (Fichier/dossier...)
 
-![Image hierarchie](https://github.com/leersmathieu/cthulhu/tree/master/assets/img/hierarch.png)
+![Image hierarchie](https://github.com/leersmathieu/cthulhu/raw/master/assets/img/hierarch.png)
 
 ### Syntaxe (nomenclature)
 
