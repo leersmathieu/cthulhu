@@ -1,4 +1,4 @@
-##PARTITION
+## PARTITION
 
   - Acceuil
   - Page d'un utilisateur -> gestion collection
