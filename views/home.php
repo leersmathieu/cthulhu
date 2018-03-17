@@ -2,6 +2,8 @@
 
   <div class="container">
     <aside>
+      <div class="menu-burger fa fa-align-justify fa-2x">
+      </div>
       <h2>Menu</h2>
       <ul>
         <li>Livres</li>
