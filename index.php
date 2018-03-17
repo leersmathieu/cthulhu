@@ -23,6 +23,8 @@ require(MODELS.'model.php');
     <meta charset="utf-8">
     <title>Bidouille Partage</title>
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="https://use.fontawesome.com/da2739b993.js"></script>
   </head>
   <body>
 

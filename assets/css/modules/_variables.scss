@@ -1,0 +1,33 @@
+// Variables se rapportant à l'identité visuelle du projet
+
+// PALETTTE DE COULEURS : 
+/////////////////////////
+$color-primary:         rgb(255, 186, 59);
+$color-primary-light:   #FFF9C4;
+$color-primary-dark:    rgb(29, 3, 14);
+
+$color-background:      rgb(180, 172, 125);
+$color-accent:          #7C4DFF;
+$color-divider:         #BDBDBD;
+
+$color-primary-text:    #212121;
+$color-secondary-text:  #757575;
+
+$color-to-white: rgba(255, 255, 255, 0.5);
+
+
+// Variables se rapportant à la police d'écriture
+$font-main: 'Roboto', sans-serif;
+$font-small: 0.8em;
+
+
+// Variables se rapportant à la mise en page
+$space: 8px;
+$space-double: ($space * 2);
+
+
+
+
+
+// Aide au debug, NE DOIS PAS JAMAIS ÊTRE UTILISE DANS LA VERSION DEFINITIVE !!!
+$border-debug: 1px solid red;

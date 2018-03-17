@@ -24,31 +24,7 @@ Réaliser la structure du site ( Hiérarchie dossier/fichier incluse)
 
 ### Hiérarchie (Fichier/dossier...)
 
-- index.php
-- assets/
-	- fonts/
-		- font1.otf
-		- font1.ttf
-		- font2.otf
-- php/
-	- parts/
-		- home.php
-		- other_example.php
-  - functions.php
-  - utilities.php
-- js/
-  - script.js
-  - another_script.js
-- stylesheets/
-  - modules/
-	  - mixings.scss
-	  - variables.scss
-  - partials/
-	  - filters.scss
-	  - home.scss
-	  - other_part.scss
-  - main.scss
-  - main.css
+![Image hierarchie](https://github.com/leersmathieu/cthulhu/raw/master/assets/img/hierarch.png)
 
 ### Syntaxe (nomenclature)
 

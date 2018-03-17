@@ -1,0 +1,23 @@
+// Uniquement les classes servant à l'UX
+
+.menu-burger{
+    opacity: 0;
+
+    padding: $space;
+    padding-bottom: $space-double;
+
+    position: absolute;
+    top: 0;
+    right: -48px;
+
+    
+    background-color: lighten($color-primary-light, 8%);
+    // background-color: $color-primary;
+    
+    border-radius: 0 0 12px 0;
+    
+    @media screen and (max-width: 800px){
+        cursor: pointer;
+        opacity: 1;
+    }
+}

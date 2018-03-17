@@ -1,0 +1,16 @@
+
+
+header{
+    width: 100%;
+    height: fit-content;
+    min-height: 10%;
+
+    background-color: $color-primary;
+
+    h1{
+        float: left;
+    }
+    ul{
+        float: right;
+    }
+}

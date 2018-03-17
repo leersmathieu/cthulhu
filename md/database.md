@@ -1,6 +1,6 @@
 # Objectif
 
-Créer une base de donnée qui...
+Créer une base de donnée ainsi que les tables dont nous auront besoin.
 
 ## Pré-requis (ressources)
 

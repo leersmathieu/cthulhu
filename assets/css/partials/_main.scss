@@ -1,0 +1,37 @@
+body{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+    
+  background-color: $color-primary-light;
+
+  font-family: $font-main;
+  color: $color-primary-text;
+
+  // overflow: hidden;
+  overflow-x: hidden;
+}
+
+.container{
+  @include position-center;
+}
+
+
+h1, h2, h3{
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: bold;
+}
+
+
+// Génération auto des tailles de polices pour les titres (h1 à h6)
+@for $i from 1 to 6{
+  $max-font-size: 3;
+  $decrease-size: 0.4;
+
+  h#{$i}{
+    font-size: ($max-font-size - ($i * $decrease-size)) + em;
+  }
+}

@@ -1,0 +1,51 @@
+main{
+    box-sizing: border-box;
+    height: fit-content;
+    min-height: 85%;
+
+    overflow-y: auto;
+    
+    padding: $space-double 0;
+
+    .container{
+        padding: 0;
+    }
+    
+    aside, section{
+        position: relative;
+        padding: $space-double;
+        background-color: lighten($color-primary-light, 8%);
+    }
+
+    aside{
+        float: left;
+
+        width: 33%;
+        height: 80vh;
+        
+        z-index: 1;
+
+        @media screen and (max-width: 800px){
+            position: absolute;
+            left: -50%;
+
+            width: 50%;
+            transition: left 1s;
+
+            &:hover{
+                left: 0%;
+            }
+        }
+    }
+
+    section{
+        float: right;
+        
+        width: 65%;
+        min-height: 80vh;
+
+        @media screen and (max-width: 800px){
+            width: 100%;
+        }
+    }
+}
