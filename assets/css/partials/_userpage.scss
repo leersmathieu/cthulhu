@@ -1,0 +1,24 @@
+//NAVIGATION
+
+.user-nav {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    display: flex;
+    nav {
+        margin: auto;
+        height: 50%;
+        width: 90%;
+    }
+}
+
+//USER PAGE
+.user-page {
+    background-color: $color-background;
+    .main {
+        width: 70%;
+        height: 700px; // <-- temporaire -- //
+        background-color: $color-divider;
+        margin: 0 auto;
+    }
+}
