@@ -1,10 +1,6 @@
 main{
+    @include adaptive-height;
     box-sizing: border-box;
-    height: fit-content;
-    min-height: 85%;
-
-    overflow-y: auto;
-    
     padding: $space-double 0;
 
     .container{

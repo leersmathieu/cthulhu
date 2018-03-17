@@ -37,6 +37,27 @@
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Dans le dossier "partials", uniquement des fichiers qui correspondent aux styles d'une partie du site //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+a {
+  color: #212121;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #757575;
+}
+
+a[title] {
+  text-decoration: underline dotted #212121;
+}
+
+a[title]:hover {
+  text-decoration: underline;
+}
+
 body {
   position: relative;
   width: 100vw;
@@ -45,14 +66,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   overflow-x: hidden;
-}
-
-.container {
-  width: 80%;
-  max-width: 960px;
-  overflow-y: auto;
-  margin: auto;
-  padding: 16px 0;
 }
 
 h1, h2, h3 {
@@ -83,6 +96,32 @@ h5 {
   font-size: 1em;
 }
 
+hr {
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+}
+
+p {
+  margin: 8px 0;
+}
+
+ul {
+  width: fit-content;
+  padding-left: 8px;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 960px;
+  overflow-y: auto;
+  margin: auto;
+  padding: 16px 0;
+}
+
 header {
   width: 100%;
   height: fit-content;
@@ -99,10 +138,9 @@ header ul {
 }
 
 main {
-  box-sizing: border-box;
   height: fit-content;
   min-height: 85%;
-  overflow-y: auto;
+  box-sizing: border-box;
   padding: 16px 0;
 }
 
@@ -173,5 +211,29 @@ footer {
     cursor: pointer;
     opacity: 1;
   }
+}
+
+.user-page {
+  width: 80%;
+  max-width: 960px;
+  overflow-y: auto;
+  margin: auto;
+  padding: 16px 0;
+  height: 85vh;
+  background-color: #FFF9C4;
+}
+
+.user-page nav {
+  height: 40px;
+  background-color: #7C4DFF;
+  color: #FFF9C4;
+}
+
+.user-page section {
+  height: fit-content;
+  min-height: 85%;
+  background-color: #fffded;
+  width: 100%;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
