@@ -1,0 +1,10 @@
+@mixin position-center{
+    width: 80%;
+    max-width: 960px;
+    overflow-y: auto;
+
+    margin: auto;
+    padding: $space-double 0;
+
+    border: $border-debug;
+}

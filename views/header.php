@@ -1,11 +1,14 @@
 <header>
-  <h1>
-    Bidouille Partage
-  </h1>
+  <div class="container">
 
-  <ul>
-    <li>Inscription</li>
-    <li>Catalogue</li>
-    <li>News</li>
-  </ul>
+    <h1>
+      Bidouille Partage
+    </h1>
+    
+    <ul>
+      <li>Inscription</li>
+      <li>Catalogue</li>
+      <li>News</li>
+    </ul>
+  </div>
 </header>
