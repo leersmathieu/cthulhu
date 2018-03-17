@@ -25,6 +25,7 @@ require(MODELS.'model.php');
     <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="https://use.fontawesome.com/da2739b993.js"></script>
+    <script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
   </head>
   <body>
 
@@ -38,3 +39,5 @@ require(MODELS.'model.php');
 
   </body>
 </html>
+
+<script src="assets/js/controller.js"></script>

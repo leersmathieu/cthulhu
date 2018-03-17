@@ -25,7 +25,7 @@ main{
         
         z-index: 1;
 
-        @media screen and (max-width: 800px){
+        @media #{$smartphone}{
             position: absolute;
             left: -50%;
 
@@ -44,7 +44,7 @@ main{
         width: 65%;
         min-height: 80vh;
 
-        @media screen and (max-width: 800px){
+        @media #{$smartphone}{
             width: 100%;
         }
     }

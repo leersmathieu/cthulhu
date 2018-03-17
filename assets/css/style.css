@@ -123,7 +123,7 @@ main aside {
   z-index: 1;
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
   main aside {
     position: absolute;
     left: -50%;
@@ -141,7 +141,7 @@ main section {
   min-height: 80vh;
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
   main section {
     width: 100%;
   }
@@ -157,19 +157,19 @@ footer {
   color: #FFF9C4;
 }
 
-.menu-burger {
+#menu-burger {
   opacity: 0;
   padding: 8px;
   padding-bottom: 16px;
   position: absolute;
   top: 0;
-  right: -48px;
-  background-color: #fffded;
+  right: -43px;
+  background-color: #ffba3b;
   border-radius: 0 0 12px 0;
 }
 
-@media screen and (max-width: 800px) {
-  .menu-burger {
+@media (max-width: 800px) {
+  #menu-burger {
     cursor: pointer;
     opacity: 1;
   }

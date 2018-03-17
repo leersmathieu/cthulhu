@@ -2,7 +2,7 @@
 
   <div class="container">
     <aside>
-      <div class="menu-burger fa fa-align-justify fa-2x">
+      <div id="menu-burger" class="fa fa-bars fa-2x" onclick="showMenu(event)">
       </div>
       <h2>Menu</h2>
       <ul>
