@@ -7,6 +7,9 @@
       if($action == "home"){
         require VIEWS."home.php";
       }
+      if($action == "user"){
+        require VIEWS."userpage.php";
+      }
 
       require VIEWS."footer.php";
     }

@@ -1,0 +1,21 @@
+//NAVIGATION
+//USER PAGE
+.user-page {
+    @include position-center;
+
+    height: 85vh;
+    background-color: $color-background;
+    
+    nav {
+        height: 40px;
+        background-color: $color-accent;
+        color: $color-primary-light;
+    }
+    
+    section {
+        @include adaptive-height;
+        background-color: lighten($color-primary-light, 8%);
+        width: 100%;
+        margin: 0 auto;
+    }
+}

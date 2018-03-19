@@ -25,11 +25,12 @@ require(MODELS.'model.php');
     <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="https://use.fontawesome.com/da2739b993.js"></script>
+    <script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
   </head>
   <body>
 
     <?php
-      $valid_actions = ["home", "contact"];
+      $valid_actions = ["home", "contact", "user"];
       // Page à afficher
       $action = (isset($_GET['action']) && in_array($_GET['action'], $valid_actions)) ? $_GET['action'] : "home";
 
@@ -38,3 +39,5 @@ require(MODELS.'model.php');
 
   </body>
 </html>
+
+<script src="assets/js/controller.js"></script>

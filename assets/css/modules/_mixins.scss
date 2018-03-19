@@ -1,3 +1,4 @@
+// Centre un élément par rapport à son parent et fixe la largeur pour qu'elle soit responsive
 @mixin position-center{
     width: 80%;
     max-width: 960px;
@@ -5,4 +6,11 @@
 
     margin: auto;
     padding: $space-double 0;
+}
+
+
+// Permet d'occuper un maximum d'espace verticalement sans déformer la page 
+@mixin adaptive-height(){
+    height: fit-content;
+    min-height: 85%;
 }

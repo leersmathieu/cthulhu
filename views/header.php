@@ -2,13 +2,8 @@
   <div class="container">
 
     <h1>
-      Bidouille Partage
+      <a href="index.php" title="Bidouille Partage">Bidouille Partage</a>
     </h1>
     
-    <ul>
-      <li>Inscription</li>
-      <li>Catalogue</li>
-      <li>News</li>
-    </ul>
   </div>
 </header>
