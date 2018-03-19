@@ -3,6 +3,9 @@
         Index
     </nav>
     <section>
+    <div class="display">
+     <!-- profil img -->
+    </div>
 
     </section>
 </main>
