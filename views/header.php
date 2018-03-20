@@ -2,7 +2,7 @@
   <div class="container">
 
     <h1>
-      <a href="index.php" title="Bidouille Partage">Bidouille Partage</a>
+      <a href="index.php">Bidouille Partage</a>
     </h1>
     
   </div>

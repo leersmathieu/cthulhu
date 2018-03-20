@@ -1,0 +1,53 @@
+<?php
+
+/**
+ * Permet de générer des formulaires.
+ * 
+ * Elle hérite de la class HTMLElement.
+ */
+class Form extends HTMLElement{
+
+    private $method; // Méthode utilisé par le formulaire (définit par le constructeur, "post" par défaut)
+    
+    private $action = "";
+    private $need_update = true; // Indique s'il y a besoin de mettre à jour l'HTML
+
+
+    public function __construct($name, $method='post'){
+        $this->name = $name;
+        $this->method = $method;
+        $this->action = "";
+    }
+
+    
+    /**
+     * Retourne l'élément sous forme d'HTML
+     *
+     * @return string
+     */
+    public function output(){ 
+        if($this->need_update){
+            $this->generayeHTML();
+            $this->need_update = false;
+        }
+        
+        return $this->html;
+    }
+
+    /**
+     * Génère l'HTML au sein de notre objet (mais ne le retourne pas)
+     *
+     * @return void
+     */
+    private function generayeHTML(){
+        $html = "<form";
+        $html.= (empty($this->id)) ? '': ' id="'. $this->id .'"';        
+        $html.= ">";
+
+        $html.= "</form>";
+
+        $this->html = $html;
+
+        $this->html;
+    }
+}

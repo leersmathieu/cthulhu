@@ -6,6 +6,12 @@
 
     margin: auto;
     padding: $space-double 0;
+
+    @media #{$smartphone}{
+        // margin: 0;
+        margin-right: 4%;
+        float: right;
+    }
 }
 
 

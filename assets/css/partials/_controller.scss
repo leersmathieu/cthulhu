@@ -8,13 +8,14 @@
 
     position: absolute;
     top: 0;
-    right: -43px;
+    right: -25%;
 
     // background-color: lighten($color-primary-light, 8%);
     background-color: $color-primary;
     
     border-radius: 0 0 12px 0;
     
+    // @media screen and (orientation: portrait){
     @media #{$smartphone}{
         cursor: pointer;
         opacity: 1;

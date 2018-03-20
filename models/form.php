@@ -1,0 +1,43 @@
+<?php
+
+/**
+ * Permet de générer des formulaires.
+ * 
+ * Cette classe hérite de la class HTMLElement.
+ */
+class Form extends HTMLElement{
+
+    private $method; // Méthode utilisé par le formulaire (définit par le constructeur, "post" par défaut)
+    private $action; // Permet d'accéder à l'url d'une page en cas d'envoie de formulaire
+
+
+    /**
+     * __construct
+     *
+     * @param string $name=''
+     * @param string $method='post'
+     * @param string $action=''
+     * @return void
+     */
+    public function __construct($name='', $method='post', $action=''){
+        $this->attributes['name'] = $name; 
+        $this->attributes['method'] = $method; 
+        $this->attributes['action'] = $action; 
+    }
+
+    protected function generateHTML(){
+        $html = "<form";
+        foreach($this->attributes as $attribute_key => $attribute_value){
+            $html .=  $this->printAttributes($attribute_key);
+        }       
+        $html.= ">";
+
+        foreach($this->child_elements as $child){
+            $html .=  $child->output();
+        }   
+
+        $html.= "</form>";
+
+        $this->html = $html;
+    }
+}

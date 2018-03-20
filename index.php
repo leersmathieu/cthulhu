@@ -10,7 +10,13 @@ define("CONTROLLERS", "controllers/", true);
 define("MODEL", "models/", true);
 define("MODELS", "models/", true);
 
-// Importation des classes
+// Importation...
+require(MODELS.'functions.php');
+require(MODELS.'html_element.php');
+require(MODELS."form.php");
+require(MODELS."input.php");
+
+// Modèle MVC
 require(CONTROLLERS."mycontroller.php");
 require(CONTROLLERS."controller.php");
 require(MODELS."mymodel.php");
@@ -24,6 +30,7 @@ require(MODELS.'model.php');
     <title>Bidouille Partage</title>
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Importation des scripts tiers -->
     <script src="https://use.fontawesome.com/da2739b993.js"></script>
     <script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
   </head>

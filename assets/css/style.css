@@ -122,6 +122,13 @@ ul li {
   padding: 16px 0;
 }
 
+@media screen and (orientation: portrait) {
+  .container {
+    margin-right: 4%;
+    float: right;
+  }
+}
+
 header {
   width: 100%;
   height: fit-content;
@@ -161,15 +168,13 @@ main aside {
   z-index: 1;
 }
 
-@media (max-width: 800px) {
+@media screen and (orientation: portrait) {
   main aside {
     position: absolute;
     left: -50%;
     width: 50%;
-    transition: left 1s;
-  }
-  main aside:hover {
-    left: 0%;
+    transition: left 0.5s;
+    font-size: 4em;
   }
 }
 
@@ -179,7 +184,7 @@ main section {
   min-height: 80vh;
 }
 
-@media (max-width: 800px) {
+@media screen and (orientation: portrait) {
   main section {
     width: 100%;
   }
@@ -201,12 +206,12 @@ footer {
   padding-bottom: 16px;
   position: absolute;
   top: 0;
-  right: -43px;
+  right: -25%;
   background-color: #ffba3b;
   border-radius: 0 0 12px 0;
 }
 
-@media (max-width: 800px) {
+@media screen and (orientation: portrait) {
   #menu-burger {
     cursor: pointer;
     opacity: 1;
@@ -221,6 +226,13 @@ footer {
   padding: 16px 0;
   height: 85vh;
   background-color: #FFF9C4;
+}
+
+@media screen and (orientation: portrait) {
+  .user-page {
+    margin-right: 4%;
+    float: right;
+  }
 }
 
 .user-page nav {

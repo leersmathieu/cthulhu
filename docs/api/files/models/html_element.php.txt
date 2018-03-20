@@ -1,0 +1,50 @@
+<?php
+
+abstract class HTMLElement{
+    protected $name; // Nom du formulaire
+    protected $html; // Le contenu de notre objet, mais sous forme de code HTML
+
+    protected $id = "";
+    protected $classes = [];
+
+    /**
+     * Permet d'ajouter une ou plusieurs classes (CSS) à notre objet.
+     * 
+     * La fonction *addClass* vérifie que l'objet ne possède pas déjà la classe ou les classes fournies en paramètre.
+     * Elle ne les ajoute à notre objet que s'il ne les possède pas encore
+     *
+     * @param mixed $class Un string ou un tableau de string
+     * @return void
+     */
+    public function addClass($class){
+
+        if( is_string($class) ){
+
+        }
+        else if( is_array($class) ){
+
+        }
+
+    }
+
+    /**
+     * Permet de donner un id (CSS) à notre objet.
+     *
+     * @param string $new_id Le nom de l'id
+     * @return void
+     */
+    public function setID(string $new_id){
+        $this->id = $new_id;
+    }
+
+    
+    /**
+     * Permet à notre objet de savoir s'il possède déjà une classe (CSS) en particulier
+     *
+     * @param string $class
+     * @return bool
+     */
+    protected function classExistAlready(string $class){
+        return in_array($class, $this->classes);
+    }
+}

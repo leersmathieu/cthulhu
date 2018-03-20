@@ -27,8 +27,10 @@ $space-double: ($space * 2);
 
 
 // Media queries
-$smartphone: screen and (max-width: 800px);
-$pc: screen and (min-width: 840px);
+// $smartphone: screen and (max-width: 800px);
+// $pc: screen and (min-width: 840px);
+$smartphone: "screen and (orientation: portrait)";
+$pc: "screen and (min-width: 840px)";
 
 
 // Aide au debug, NE DOIS PAS JAMAIS ÊTRE UTILISE DANS LA VERSION DEFINITIVE !!!

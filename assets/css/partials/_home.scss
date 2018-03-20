@@ -21,16 +21,18 @@ main{
         
         z-index: 1;
 
+        // @media screen and (orientation: portrait){
         @media #{$smartphone}{
             position: absolute;
             left: -50%;
 
             width: 50%;
-            transition: left 1s;
+            transition: left 0.5s;
 
-            &:hover{
-                left: 0%;
-            }
+            font-size: 4em;
+            // &:hover{
+            //     left: 0%;
+            // }
         }
     }
 
@@ -40,6 +42,7 @@ main{
         width: 65%;
         min-height: 80vh;
 
+        // @media screen and (orientation: portrait){
         @media #{$smartphone}{
             width: 100%;
         }

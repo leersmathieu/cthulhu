@@ -1,0 +1,18 @@
+<?php
+
+  class MyController {
+    public function action($action) {
+      require VIEWS."header.php";
+
+      if($action == "home"){
+        require VIEWS."home.php";
+      }
+      if($action == "user"){
+        $form_sign_up = new Form("Sign Up"); // Formulaire d'inscription
+        require VIEWS."userpage.php";
+      }
+
+      require VIEWS."footer.php";
+    }
+  }
+
