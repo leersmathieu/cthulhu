@@ -273,7 +273,8 @@ footer {
 }
 
 .user-page nav {
-  height: 40px;
+  height: auto;
+  padding: 10px;
   background-color: #7C4DFF;
   color: #FFF9C4;
 }
@@ -284,5 +285,13 @@ footer {
   background-color: #fffded;
   width: 100%;
   margin: 0 auto;
+}
+
+.user-page section .display {
+  background-image: url("../img/test.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 150px;
 }
 /*# sourceMappingURL=style.css.map */

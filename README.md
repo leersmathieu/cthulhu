@@ -22,6 +22,12 @@ Conceptualiser une *webapp* qui permet aux membres de partager leur *collection*
   - [Element Collection](md/element.md)
     - [Personnal Collection](md/personnal.md)
 
+#### MVC
+
+  - [Models](md/models.md)
+  - [Views](md/views.md)
+  - [Controllers](md/controllers.md)
+
   
 ## Objectif secondaire
 
