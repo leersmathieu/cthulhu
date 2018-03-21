@@ -5,10 +5,14 @@ header{
     height: fit-content;
     min-height: 10%;
 
-    background-color: $color-primary;
+    background-color: $color-primary-dark;
 
     h1{
         float: left;
+        color: $color-secondary-text;
+        a {
+            color: $color-secondary-text;
+        }
     }
     ul{
         float: right;

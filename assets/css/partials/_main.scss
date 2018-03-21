@@ -1,7 +1,7 @@
 // Elément HTML //
 
 a{
-  color: $color-primary-text;
+  color: $color-link;
   text-decoration: none;
 
   &:hover{
@@ -26,7 +26,7 @@ body{
   width: 100vw;
   height: 100vh;
     
-  background-color: $color-primary-light;
+  background-color: $color-background;
 
   font-family: $font-main;
   color: $color-primary-text;
@@ -37,6 +37,7 @@ body{
 
 h1, h2, h3{
   text-transform: uppercase;
+  color: $color-secondary-text;
 }
 
 h1, h2, h3, h4, h5{
@@ -75,6 +76,9 @@ ul{
 // CLASSES //
 .container{
   @include position-center;
+  aside {
+    background-color: $color-menu;
+  }
 }
 
 main{
