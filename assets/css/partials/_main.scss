@@ -76,3 +76,11 @@ ul{
 .container{
   @include position-center;
 }
+
+main{
+  .container{
+    @media #{$smartphone}{
+      margin-right: 4%;
+    }
+  }
+}

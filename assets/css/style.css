@@ -123,9 +123,8 @@ ul li {
 }
 
 @media screen and (orientation: portrait) {
-  .container {
+  main .container {
     margin-right: 4%;
-    float: right;
   }
 }
 
@@ -200,6 +199,51 @@ footer {
   color: #FFF9C4;
 }
 
+.catalog {
+  height: fit-content;
+}
+
+.catalog .item {
+  width: 45%;
+  height: 300px;
+  float: left;
+  margin: 2%;
+  padding: 16px;
+  border: 1px solid #ffba3b;
+  border-radius: 8px;
+  font-size: 0.8em;
+}
+
+@media screen and (orientation: portrait) {
+  .catalog .item {
+    width: 100%;
+    margin: 2% 0;
+  }
+}
+
+.catalog .item .title {
+  font-size: 1.4em;
+}
+
+.catalog .item .author:after {
+  content: "\A";
+}
+
+.catalog img {
+  display: block;
+}
+
+.catalog img.cover {
+  float: left;
+  max-width: 100px;
+  margin-right: 8px;
+}
+
+.catalog img.profil-pic {
+  float: right;
+  max-width: 50px;
+}
+
 #menu-burger {
   opacity: 0;
   padding: 8px;
@@ -226,13 +270,6 @@ footer {
   padding: 16px 0;
   height: 85vh;
   background-color: #FFF9C4;
-}
-
-@media screen and (orientation: portrait) {
-  .user-page {
-    margin-right: 4%;
-    float: right;
-  }
 }
 
 .user-page nav {

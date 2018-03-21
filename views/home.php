@@ -11,7 +11,7 @@
         <li><a href="?action=skills">Compétences</a></li>
         <hr>
         <li><a href="?action=user">Inscription</a></li>
-        <li><a href="?action=catalogue">Catalogue</a></li>
+        <li><a href="?action=catalog">Catalogue</a></li>
         <li><a href="?action=news">News</a></li>
       </ul>
     </aside>

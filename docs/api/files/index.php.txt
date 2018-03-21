@@ -14,6 +14,7 @@ define("MODELS", "models/", true);
 require(MODELS.'functions.php');
 require(MODELS.'html_element.php');
 require(MODELS."form.php");
+require(MODELS."input.php");
 
 // Modèle MVC
 require(CONTROLLERS."mycontroller.php");

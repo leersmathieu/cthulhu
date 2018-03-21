@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Permet de générer des inputs.
+ * Permet de générer des input.
  * 
  * Cette classe hérite de la class HTMLElement.
  */
@@ -18,16 +18,8 @@ class Input extends HTMLElement{
      */
     public function __construct($name='', $type='', $value='', $placeholder=''){
         $this->attributes['name'] = $name; 
-        $this->attributes['type'] = $type;
-
-        if(!$value && $name){ // Si l'input à un nom mais pas de valeur...
-            // ... on tente de récupérer une valeur dans $_POST
-            $this->attributes['value'] = get_value($name);
-        }
-        else{
-            // Autrement on lui attribut la valeur passée en paramètre
-            $this->attributes['value'] = $value; 
-        } 
+        $this->attributes['type'] = $type; 
+        $this->attributes['value'] = $value; 
 
         if($placeholder){
             $this->attributes['placeholder'] = $placeholder;

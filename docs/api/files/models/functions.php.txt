@@ -33,5 +33,3 @@ function get_value($value_name, $filter="string"){
 
     return null;
 }
-
-?>

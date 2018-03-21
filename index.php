@@ -37,7 +37,7 @@ require(MODELS.'model.php');
   <body>
 
     <?php
-      $valid_actions = ["home", "contact", "user"];
+      $valid_actions = ["home", "contact", "user", "catalog"];
       // Page à afficher
       $action = (isset($_GET['action']) && in_array($_GET['action'], $valid_actions)) ? $_GET['action'] : "home";
 
