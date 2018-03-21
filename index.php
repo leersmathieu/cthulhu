@@ -27,9 +27,10 @@ require(MODELS.'model.php');
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bidouille Partage</title>
     <link rel="stylesheet" href="assets/css/style.css">
-
+    
     <!-- Importation des scripts tiers -->
     <script src="https://use.fontawesome.com/da2739b993.js"></script>
     <script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
