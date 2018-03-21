@@ -38,7 +38,7 @@
 // Dans le dossier "partials", uniquement des fichiers qui correspondent aux styles d'une partie du site //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 a {
-  color: #212121;
+  color: #fff5f5;
   text-decoration: none;
 }
 
@@ -47,11 +47,11 @@ a:hover {
 }
 
 a:active {
-  color: #757575;
+  color: #fff5f5;
 }
 
 a[title] {
-  text-decoration: underline dotted #212121;
+  text-decoration: underline dotted #111111;
 }
 
 a[title]:hover {
@@ -62,14 +62,15 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-color: #FFF9C4;
+  background-color: white;
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: #111111;
   overflow-x: hidden;
 }
 
 h1, h2, h3 {
   text-transform: uppercase;
+  color: #fff5f5;
 }
 
 h1, h2, h3, h4, h5 {
@@ -122,6 +123,10 @@ ul li {
   padding: 16px 0;
 }
 
+.container aside {
+  background-color: #20201f;
+}
+
 @media screen and (orientation: portrait) {
   main .container {
     margin-right: 4%;
@@ -132,11 +137,16 @@ header {
   width: 100%;
   height: fit-content;
   min-height: 10%;
-  background-color: #ffba3b;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 header h1 {
   float: left;
+  color: #fff5f5;
+}
+
+header h1 a {
+  color: #fff5f5;
 }
 
 header ul {
@@ -157,7 +167,7 @@ main .container {
 main aside, main section {
   position: relative;
   padding: 16px;
-  background-color: #fffded;
+  background-color: #eaeaea;
 }
 
 main aside {
@@ -193,10 +203,10 @@ footer {
   width: 100%;
   height: fit-content;
   min-height: 5%;
-  background-color: #212121;
+  background-color: rgba(0, 0, 0, 0.8);
   font-size: 0.8em;
   text-align: center;
-  color: #FFF9C4;
+  color: #d6d6d6;
 }
 
 .catalog {
@@ -209,7 +219,7 @@ footer {
   float: left;
   margin: 2%;
   padding: 16px;
-  border: 1px solid #ffba3b;
+  border: 1px solid #616160;
   border-radius: 8px;
   font-size: 0.8em;
 }
@@ -251,7 +261,7 @@ footer {
   position: absolute;
   top: 0;
   right: -25%;
-  background-color: #ffba3b;
+  background-color: #616160;
   border-radius: 0 0 12px 0;
 }
 
@@ -269,20 +279,20 @@ footer {
   margin: auto;
   padding: 16px 0;
   height: 85vh;
-  background-color: #FFF9C4;
+  background-color: white;
 }
 
 .user-page nav {
   height: auto;
   padding: 10px;
-  background-color: #7C4DFF;
-  color: #FFF9C4;
+  background-color: #6b6964;
+  color: #d6d6d6;
 }
 
 .user-page section {
   height: fit-content;
   min-height: 85%;
-  background-color: #fffded;
+  background-color: #eaeaea;
   width: 100%;
   margin: 0 auto;
 }
