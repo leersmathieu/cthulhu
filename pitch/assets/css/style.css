@@ -148,3 +148,58 @@ body {
   width: 90%;
   height: 20px;
 }
+
+.page_06 div {
+  display: inline-block;
+  width: 100%;
+}
+.page_06 h1{
+  font-size:30px;
+}
+
+.page_06 div div {
+  width: 49%;
+  height: 100%;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.page_06 div div img {
+  width: 100%;
+}
+
+.page_06 div div label {
+  display:block;
+  background-color: blue;
+  width: 100%;
+  font-size:18px;
+}
+
+.page_06 div div input {
+  /* box-sizing: border-box; */
+  width:100%;
+  margin-top: 10px;
+  margin-bottom: 4vh;
+  margin-right: 50px;
+  padding: 10px;
+  text-align: center;
+}
+.page_06 section{
+  /* text-align: center; */
+}
+.page_06 section p {
+  display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.page_06 section h1{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.page_06 section div{
+  text-align: center;
+}
+.btn_page_06{
+  margin:auto;
+}
