@@ -1,4 +1,18 @@
-/* CSS DORIAN */
+@import 'reset.css';
+
+body{
+  --primary-color: #81be17;
+  --gray: #95989a;
+  --space-thumbs: 48px;
+  --line-style: 3px solid var(--primary-color);
+  
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--gray);
+}
+
+.center{
+  text-align: center;
+}
 
 .index--main {
   text-align : center;
@@ -12,7 +26,7 @@
 
 .index--main--input {
   border : none;
-  border-bottom : 2px solid  #81be17;
+  border-bottom: var(--line-style);
   width : 80%;
   text-align: center;
   padding-top : 10px;
@@ -22,7 +36,7 @@
 
 .index--main--pwd {
   border : none;
-  border-bottom : 2px solid  #81be17;
+  border-bottom : var(--line-style);
   width : 80%;
   text-align: center;
   padding-top : 10px;
@@ -90,64 +104,125 @@ box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
   font-size : 25px;
 }
 
-body {
-  background-color: gray;
-}
 
 .contact {
-  width: 360px;
+  /* width: 360px; */
   height: 550px;
-  background-color: #eeeeee;
-  color: gray;
+  padding: 32px;
+  background-color: white;
 }
 
-.contact h1 {
-  margin: auto;
-  width: 70%;
-  font-size: 24px;
-}
 
-.contact .message {
-  margin-top: 100px;
-}
-
-.contact .message p {
-  padding: 10px;
+.contact p {
+  /* padding: 10px; */
   width: 70%;
   margin-bottom: 30px;
-  border-radius: 20px;
-  box-shadow: 6px 10px 30px 0px rgba(0, 0, 0, 0.75);
+  
+  box-shadow: 6px 10px 30px 0px rgba(0, 0, 0, 0.3);
+}
+.contact .messages {
+  box-sizing: content-box;
+  padding: 48px 0;
+  height: 50%;
+  margin-top: 100px;
+  background-color: #f7f7f7;
+
+  border-radius: 150px;
 }
 
-.contact .message .my-message {
+.message{
+  padding: 12px;
+  position: relative;
+}
+
+.my-message {
+  padding-right: 24px;
   margin-left: 80px;
   text-align: right;
   background-color: white;
-  border: 1px solid gray;
+  border: 1px solid var(--gray);
+
+  border-radius: 40px 40px 0 40px;
+}
+.my-message::before{
+  position: absolute;
+  right: -20px;
+  bottom: -1px;
+  width: 0;
+  height: 0;
+
+  border-bottom: 20px solid var(--gray);
+  border-right: 20px solid transparent;
+  content: "";
+}
+.my-message::after{
+  position: absolute;
+  right: -18px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+
+  border-bottom: 18px solid white;
+  border-right: 18px solid transparent;
+  content: "";
 }
 
-.contact .message .him-message {
-  background-color: green;
+.him-message {
+  padding-left: 24px;
+  background-color: var(--primary-color);
   color: white;
   margin-left: 5px;
   border: 1px solid white;
-}
 
-.contact .message input {
-  margin-top: 90%;
+  border-radius: 40px 40px 40px 0;
+}
+.him-message::before{
+  position: absolute;
+  left: -20px;
+  bottom: -1px;
+  width: 0;
+  height: 0;
+
+  border-bottom: 20px solid white;
+  border-left: 20px solid transparent;
+  content: "";
+}
+.him-message::after{
+  position: absolute;
+  left: -18px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+
+  border-bottom: 18px solid var(--primary-color);
+  border-left: 18px solid transparent;
+  content: "";
 }
 
 .message-text {
-  width: 360px;
+  position: relative;
+  width: 100%;
   height: auto;
-  margin-top: 40%;
+  margin-top: 40px;
   text-align: center;
 }
-
 .message-text input {
-  width: 90%;
+  width: 80%;
   height: 20px;
+  border: none;
+  border-bottom: var(--line-style);
 }
+.message-text .fa-check{
+  position: relative;
+  top: 8px;
+  margin-left: 12px;
+  padding: 2px;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+
 .menu {
     width: 260px;
     float: right;
@@ -190,4 +265,297 @@ body {
     padding: 10px 0 10px 0;
     font-size: 18px;
     font-family: Segoe;
+}
+
+/* PAGE 06 */
+.page_06{
+  padding: 24px;
+}
+.page_06 header{
+  width: 100%;
+}
+.page_06 header h2{
+  margin-bottom: 48px;
+}
+h2{  
+  margin-bottom: 12px;
+
+  font-size:30px;
+  color: var(--gray);
+}
+h3 {
+  display:block;
+  width: 100%;
+  font-size: 20px;
+}
+
+
+.demi{
+  width: 49%;
+  float: left;
+}
+.demi img {
+  display: inline-block;
+  width: 100% ;
+  padding-right: 12px;
+}
+
+
+
+.page_06 p {
+  /* width:100%; */
+  margin-top: 10px;
+  margin-bottom: 12px;
+  padding: 10px;
+  padding-left: 0;
+
+  border-bottom: var(--line-style);
+}
+.page_06 section p {
+  margin-bottom: 50px;
+}
+
+.page_06 section div{
+  text-align: center;
+}
+
+.center{
+  margin: auto;
+}
+
+
+
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+
+/* Portrait layout (default) */
+.app-origin {
+  background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+  position:absolute;             /* position in the center of the screen */
+  left:50%;
+  top:50%;
+  height:50px;                   /* text area height */
+  width:225px;                   /* text area width */
+  text-align:center;
+  padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+  margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                 /* offset horizontal: half of text area width */
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+  .app {
+      background-position:left center;
+      padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+      margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                    /* offset horizontal: half of image width and text area width */
+  }
+}
+
+h1 {
+  font-size:24px;
+  font-weight:normal;
+  margin:0px;
+  overflow:visible;
+  padding:0px;
+  text-align:center;
+}
+
+.event {
+  border-radius:4px;
+  -webkit-border-radius:4px;
+  color:#FFFFFF;
+  font-size:12px;
+  margin:0px 30px;
+  padding:2px 0px;
+}
+
+.event.listening {
+  background-color:#333333;
+  display:block;
+}
+
+.event.received {
+  background-color:#4B946A;
+  display:none;
+}
+
+@keyframes fade {
+  from { opacity: 1.0; }
+  50% { opacity: 0.4; }
+  to { opacity: 1.0; }
+}
+
+@-webkit-keyframes fade {
+  from { opacity: 1.0; }
+  50% { opacity: 0.4; }
+  to { opacity: 1.0; }
+}
+
+.blink {
+  animation:fade 3000ms infinite;
+  -webkit-animation:fade 3000ms infinite;
+}
+
+
+
+.primary{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  padding: 24px;
+}
+
+
+.top, .middle{
+  margin-bottom: 32px;
+}
+
+.logo{
+  margin: 0 auto;
+  width: 60%;
+}
+.logo img{
+  width: 100%;
+}
+
+.middle{
+  position: relative;
+  height: 50%;
+  /* background-color: red; */
+}
+.middle img{
+  width: 100%;
+  margin: auto;
+
+  position: absolute;
+  top: 12.5%;
+
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+
+.arrow{
+  position: absolute;
+  z-index: 1;
+  color: var(--primary-color);
+  bottom: 100px;
+}
+.arrow.fa-angle-left{
+  left: -18px;
+}
+.arrow.fa-angle-right{
+  right: -18px;
+}
+
+.bottom{
+  position: relative;
+  bottom: 0;
+
+  color: var(--primary-color);
+  /* text-shadow:  0px 4px rgba(0, 0, 0, 0.3); */
+}
+
+
+#menu-burger{
+  color: var(--gray);
+
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.left{
+  position: absolute;
+  left: var(--space-thumbs);
+  /* bottom: 0; */
+}
+.right{
+  position: absolute;
+  right: var(--space-thumbs);
+  top: 22px;
+}
+
+.bottom > .fa-thumbs-up{
+  text-shadow: 6px 6px black;
+  /* color: red; */
+}
+/*
+.blink {
+  animation:fade 3000ms infinite;
+  -webkit-animation:fade 3000ms infinite;
+}*/
+
+.add + label {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  position: relative;
+  
+  text-align: center;
+  color: white;
+  font-size: 1.4em;
+  
+  border-radius: 100%;
+  background-color: var(--primary-color);
+  box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.2);
+}
+
+.android3 {
+  padding: 48px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.android3 input{
+  width: 100%;
+}
+.android3 input[type=text]{
+  margin-top: 8px;
+  padding: 4px 12px;
+}
+
+.tags{
+  border:none;
+  border-bottom: var(--line-style);
+}
+.allAdd {
+  margin-top:15%;
+}
+.addLabel {
+  margin-top: 5%
+}
+#submit {
+  width:30%;
+  padding:3%;
+  background-color: var(--primary-color);
+  box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.2);
+  border-radius: 1vh;
+}
+#first {
+  font-size:25px;
+}
+.inputAdd {
+  border:none;
+  border-bottom: var(--line-style);
+  font-size:12px;
+}
+
+input[type=file]{
+  display: none;
+}
+
+
+.buttonArnaud {
+  width:30%;
+  padding:3%;
+  background-color: var(--primary-color);
+  box-shadow: 0px 4px 8px 2px rgba(0,0,0,0.2);
+
+  color: white;
+  border: none;
+  border-radius: 4px;
 }

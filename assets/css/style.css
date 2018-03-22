@@ -354,4 +354,38 @@ footer {
   width: 150px;
   height: 150px;
 }
+
+.page_06 div {
+  display: inline-block;
+  width: 100%;
+}
+
+.page_06 div div {
+  width: 49%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.page_06 div div img {
+  width: 100%;
+}
+
+.page_06 div div label {
+  width: 100%;
+}
+
+.page_06 div div input {
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 6vh;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid green;
+  text-align: center;
+}
+
+.page_06 section p {
+  display: block;
+  margin: 50px;
+}
 /*# sourceMappingURL=style.css.map */

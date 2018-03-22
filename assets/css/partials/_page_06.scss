@@ -1,0 +1,36 @@
+.page_06{
+    h1{
+
+    }
+    div{
+        display:inline-block;
+        width:100%;
+        div{
+            width:49%;
+            height:100%;
+            vertical-align: top;
+            img{
+                width:100%;
+            }
+            label{
+                width:100%;
+            }
+            input{
+                box-sizing: border-box;
+                margin-top: 10px;
+                margin-bottom:6vh;
+                padding: 10px;
+                border:none;
+                border-bottom: 2px solid green;
+                text-align: center;
+            }
+        }        
+    }
+    section{
+        p{
+            display:block;
+            margin:50px;
+
+        }
+    }
+}
