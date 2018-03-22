@@ -1,0 +1,150 @@
+/* CSS DORIAN */
+
+.index--main {
+  text-align : center;
+  font-size : 16px;
+}
+
+.index--title {
+  padding-top : 5vh;
+  padding-bottom : 17vh;
+}
+
+.index--main--input {
+  border : none;
+  border-bottom : 2px solid  #81be17;
+  width : 80%;
+  text-align: center;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  margin-bottom : 4vh;
+}
+
+.index--main--pwd {
+  border : none;
+  border-bottom : 2px solid  #81be17;
+  width : 80%;
+  text-align: center;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  margin-bottom : 4vh;
+}
+
+.index--main--sub {
+  margin-bottom : 5vh;
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius : 3px;
+  transition: all 0.3s ease-in-out;
+  width: 21vw;
+  height : 5vh;
+  color : white;
+  background-color :  #81be17;
+  border : none;
+  -webkit-box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+-moz-box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+}
+
+.index--signup a {
+  text-decoration : none;
+  color :  #81be17;
+
+}
+
+.foundit--see {
+  margin-top : 15vh;
+}
+.foundit--see>a {
+  text-decoration : none;
+  padding : 5px 10px;
+  color : white ;
+  width: 21vw;
+  height : 5vh;
+  border-radius : 3px;
+  color : white;
+  background-color :  #81be17;
+  border : none;
+  -webkit-box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+-moz-box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+
+}
+
+.index--email {
+  opacity : 0.6;
+  padding-bottom : 4vh;
+}
+
+.index--password {
+  opacity : 0.6;
+  padding-bottom : 5vh;
+
+}
+
+.foundit {
+  font-weight : 700;
+  opacity : 0.6;
+  padding-top : 20vh;
+  text-align : center;
+  font-size : 25px;
+}
+
+body {
+  background-color: gray;
+}
+
+.contact {
+  width: 360px;
+  height: 550px;
+  background-color: #eeeeee;
+  color: gray;
+}
+
+.contact h1 {
+  margin: auto;
+  width: 70%;
+  font-size: 24px;
+}
+
+.contact .message {
+  margin-top: 100px;
+}
+
+.contact .message p {
+  padding: 10px;
+  width: 70%;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 6px 10px 30px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contact .message .my-message {
+  margin-left: 80px;
+  text-align: right;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.contact .message .him-message {
+  background-color: green;
+  color: white;
+  margin-left: 5px;
+  border: 1px solid white;
+}
+
+.contact .message input {
+  margin-top: 90%;
+}
+
+.message-text {
+  width: 360px;
+  height: auto;
+  margin-top: 40%;
+  text-align: center;
+}
+
+.message-text input {
+  width: 90%;
+  height: 20px;
+}

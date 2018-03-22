@@ -18,6 +18,10 @@
 
         require VIEWS."catalog.php";
       }
+      else if($action == "subscribe"){
+
+        require VIEWS."subscribe.php";
+      }
       else{
         // Par défaut on charge la page d'acceuil...
         // Cependant, il serait peut être intéressant d'inclure une page 404
