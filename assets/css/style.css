@@ -116,10 +116,51 @@ ul li {
 
 .container {
   width: 80%;
-  max-width: 960px;
+  max-width: 80vw;
   overflow-y: auto;
   margin: auto;
   padding: 16px 0;
+}
+
+.item {
+  width: 45%;
+  height: 300px;
+  float: left;
+  margin: 2%;
+  padding: 16px;
+  border: 1px solid #ffba3b;
+  border-radius: 8px;
+  font-size: 0.8em;
+}
+
+@media screen and (orientation: portrait) {
+  .item {
+    width: 100%;
+    margin: 2% 0;
+  }
+}
+
+.item .title {
+  font-size: 1.4em;
+}
+
+.item .author:after {
+  content: "\A";
+}
+
+.item img {
+  display: block;
+}
+
+.item img.cover {
+  float: left;
+  max-width: 100px;
+  margin-right: 8px;
+}
+
+.item img.profil-pic {
+  float: right;
+  max-width: 50px;
 }
 
 @media screen and (orientation: portrait) {
@@ -189,6 +230,20 @@ main section {
   }
 }
 
+.event {
+  width: 50%;
+  padding: 8px;
+  float: left;
+}
+
+.event .item {
+  width: 20%;
+}
+
+.event .title:after {
+  content: "\A";
+}
+
 footer {
   width: 100%;
   height: fit-content;
@@ -201,47 +256,6 @@ footer {
 
 .catalog {
   height: fit-content;
-}
-
-.catalog .item {
-  width: 45%;
-  height: 300px;
-  float: left;
-  margin: 2%;
-  padding: 16px;
-  border: 1px solid #ffba3b;
-  border-radius: 8px;
-  font-size: 0.8em;
-}
-
-@media screen and (orientation: portrait) {
-  .catalog .item {
-    width: 100%;
-    margin: 2% 0;
-  }
-}
-
-.catalog .item .title {
-  font-size: 1.4em;
-}
-
-.catalog .item .author:after {
-  content: "\A";
-}
-
-.catalog img {
-  display: block;
-}
-
-.catalog img.cover {
-  float: left;
-  max-width: 100px;
-  margin-right: 8px;
-}
-
-.catalog img.profil-pic {
-  float: right;
-  max-width: 50px;
 }
 
 #menu-burger {
@@ -262,9 +276,45 @@ footer {
   }
 }
 
+.jumbotron {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 16px;
+}
+
+.jumbotron .item {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 16px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.jumbotron .item h3 {
+  margin-bottom: 16px;
+  color: #FFF9C4;
+  font-size: 4em;
+}
+
+.jumbotron .item p {
+  width: 98%;
+  position: absolute;
+  bottom: 0;
+  padding: 8px;
+  padding-bottom: 32px;
+  color: #ffba3b;
+  text-align: right;
+  font-size: 1.1em;
+  background-color: rgba(29, 3, 14, 0.5);
+}
+
 .user-page {
   width: 80%;
-  max-width: 960px;
+  max-width: 80vw;
   overflow-y: auto;
   margin: auto;
   padding: 16px 0;

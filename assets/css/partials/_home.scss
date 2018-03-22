@@ -48,3 +48,22 @@ main{
         }
     }
 }
+
+
+.event{
+    width: 50%;
+    padding: $space;
+
+    float: left;
+
+    .item{
+        width: 20%;
+    }
+
+    .title{
+        
+        &:after{
+            content: "\A";
+        }
+    }
+}

@@ -21,6 +21,7 @@
       else{
         // Par défaut on charge la page d'acceuil...
         // Cependant, il serait peut être intéressant d'inclure une page 404
+        
         require VIEWS."home.php";
       }
 

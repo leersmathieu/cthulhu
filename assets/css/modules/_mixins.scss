@@ -1,7 +1,7 @@
 // Centre un élément par rapport à son parent et fixe la largeur pour qu'elle soit responsive
 @mixin position-center{
     width: 80%;
-    max-width: 960px;
+    max-width: 80vw;
     overflow-y: auto;
 
     margin: auto;

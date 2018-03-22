@@ -1,6 +1,7 @@
 <main>
 
   <div class="container">
+    <?php include VIEWS."jumbotron.php"; ?>
     <aside>
       <div id="menu-burger" class="fa fa-bars fa-2x" onclick="showMenu(event)">
       </div>
@@ -17,27 +18,88 @@
     </aside>
 
     <section>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-        nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse 
-        cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-        officia deserunt mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Perferendis labore architecto delectus non! Repellendus, quos illum. 
-        Assumenda, doloribus quibusdam? Eligendi cupiditate, ullam enim iusto dolorum sed et asperiores voluptate commodi?
-        Asperiores, obcaecati. Tempore esse culpa veritatis eveniet ad repudiandae praesentium molestias quis voluptatum officia. Ea eveniet consequuntur vitae dolor, omnis pariatur error, quisquam est excepturi ducimus nesciunt, voluptatem sint officiis!
-        Quis quo perferendis similique voluptatibus distinctio. Iusto illum debitis distinctio, ab fugiat ipsum cum perspiciatis deleniti qui sed, nesciunt asperiores ratione, labore sint tempore saepe blanditiis doloribus assumenda sapiente tenetur?
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Eligendi, dolores! Consequuntur inventore ipsa, voluptates magnam laborum ut ducimus tempore eos minima nulla aperiam autem beatae aut amet libero culpa sit?Deserunt debitis omnis, commodi cupiditate voluptatibus beatae id architecto officia maxime dolore provident iste itaque laborum possimus. Ratione, placeat? Voluptate aliquid, beatae qui cum nihil ab distinctio provident molestiae adipisci!
-      </p>
+      <div>
+        <div class="event">
+          <span class="title">Giveaway Special Horror</span>
+          <span class="adress">Street of Rage 21, Charleroi, Belgium</span>
+          <span class="date">30/10/2018</span>
+          <span class="description">
+            Become Spooky, just for one night...
+            Stephen King, Edgar Allan Poe, Lovecraft, Mary Shelley and many authors have creepy tales to tell.
+            What's your favorite ? Go on and share it
+          </span>
+        </div>
+        <div class="event">
+          <span class="title">HALLOWEEN PARTY - Giveaway Special Horror</span>
+          <span class="adress">Street of Rage 21, Charleroi, Belgium</span>
+          <span class="date">30/10/2018</span>
+          <span class="description">
+            Become Spooky, just for one night...
+            Stephen King, Edgar Allan Poe, Lovecraft, Mary Shelley and many authors have creepy tales to tell.
+            What's your favorite ? Go on and share it ! 
+          </span>
+        </div>
+      </div>
+
+      <div>
+        <div class="item">
+          <img class="cover" src="assets/img/books_cover/51OeC6NEABL._SX302_BO1,204,203,200_.jpg" alt="Sur la route" title="Sur la route">
+          <span class="title">Sur la route</span> de <span class="author">Jack Kerouac</span>
+          Tags: 
+          <ul class="tag">
+              <li><a href="?action=catalog&amp;tag=roman">Roman</a></li>
+              <li><a href="?action=catalog&amp;tag=road_trip">Road Trip</a></li>
+          </ul>
+        </div>
+        <div class="item">
+          <img class="cover" src="assets/img/books_cover/51OeC6NEABL._SX302_BO1,204,203,200_.jpg" alt="Sur la route" title="Sur la route">
+          <span class="title">Sur la route</span> de <span class="author">Jack Kerouac</span>
+          Tags: 
+          <ul class="tag">
+              <li><a href="?action=catalog&amp;tag=roman">Roman</a></li>
+              <li><a href="?action=catalog&amp;tag=road_trip">Road Trip</a></li>
+          </ul>
+        </div>
+        <div class="item">
+          <img class="cover" src="assets/img/books_cover/51OeC6NEABL._SX302_BO1,204,203,200_.jpg" alt="Sur la route" title="Sur la route">
+          <span class="title">Sur la route</span> de <span class="author">Jack Kerouac</span>
+          Tags: 
+          <ul class="tag">
+              <li><a href="?action=catalog&amp;tag=roman">Roman</a></li>
+              <li><a href="?action=catalog&amp;tag=road_trip">Road Trip</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <div class="item">
+          <img class="cover" src="assets/img/books_cover/51OeC6NEABL._SX302_BO1,204,203,200_.jpg" alt="Sur la route" title="Sur la route">
+          <span class="title">Sur la route</span> de <span class="author">Jack Kerouac</span>
+          Tags: 
+          <ul class="tag">
+              <li><a href="?action=catalog&amp;tag=roman">Roman</a></li>
+              <li><a href="?action=catalog&amp;tag=road_trip">Road Trip</a></li>
+          </ul>
+        </div>
+        <div class="item">
+          <img class="cover" src="assets/img/books_cover/51OeC6NEABL._SX302_BO1,204,203,200_.jpg" alt="Sur la route" title="Sur la route">
+          <span class="title">Sur la route</span> de <span class="author">Jack Kerouac</span>
+          Tags: 
+          <ul class="tag">
+              <li><a href="?action=catalog&amp;tag=roman">Roman</a></li>
+              <li><a href="?action=catalog&amp;tag=road_trip">Road Trip</a></li>
+          </ul>
+        </div>
+        <div class="item">
+          <img class="cover" src="assets/img/books_cover/51OeC6NEABL._SX302_BO1,204,203,200_.jpg" alt="Sur la route" title="Sur la route">
+          <span class="title">Sur la route</span> de <span class="author">Jack Kerouac</span>
+          Tags: 
+          <ul class="tag">
+              <li><a href="?action=catalog&amp;tag=roman">Roman</a></li>
+              <li><a href="?action=catalog&amp;tag=road_trip">Road Trip</a></li>
+          </ul>
+        </div>
+      </div>
     </section>
   </div>
 
