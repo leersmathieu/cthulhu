@@ -2,18 +2,21 @@
 
 // PALETTTE DE COULEURS : 
 /////////////////////////
-$color-primary:         rgb(255, 186, 59);
-$color-primary-light:   #FFF9C4;
-$color-primary-dark:    rgb(29, 3, 14);
+$color-primary :        #616160;
+$color-primary-light:   rgb(214, 214, 214);
+$color-primary-dark:    rgba(0,0,0,0.8);
 
-$color-background:      $color-primary-light;
-$color-accent:          #7C4DFF;
+$color-background:      rgb(255, 255, 255);
+$color-accent:          #6b6964;
 $color-divider:         #BDBDBD;
+$color-menu:            #20201f;
 
-$color-primary-text:    #212121;
-$color-secondary-text:  #757575;
+$color-primary-text:    rgb(17, 17, 17);
+$color-secondary-text:  rgb(255, 245, 245);
 
-$color-to-white: rgba(255, 255, 255, 0.5);
+$color-to-white:        rgba(255, 255, 255, 0.5);
+
+$color-link :           rgb(255, 245, 245);
 
 
 // Variables se rapportant à la police d'écriture
