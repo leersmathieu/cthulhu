@@ -1,0 +1,91 @@
+/* CSS DORIAN */
+
+.index--main {
+  text-align : center;
+  font-size : 16px;
+}
+
+.index--title {
+  padding-top : 5vh;
+  padding-bottom : 17vh;
+}
+
+.index--main--input {
+  border : none;
+  border-bottom : 2px solid  #81be17;
+  width : 80%;
+  text-align: center;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  margin-bottom : 4vh;
+}
+
+.index--main--pwd {
+  border : none;
+  border-bottom : 2px solid  #81be17;
+  width : 80%;
+  text-align: center;
+  padding-top : 10px;
+  padding-bottom : 10px;
+  margin-bottom : 4vh;
+}
+
+.index--main--sub {
+  margin-bottom : 5vh;
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius : 3px;
+  transition: all 0.3s ease-in-out;
+  width: 21vw;
+  height : 5vh;
+  color : white;
+  background-color :  #81be17;
+  border : none;
+  -webkit-box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+-moz-box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+}
+
+.index--signup a {
+  text-decoration : none;
+  color :  #81be17;
+
+}
+
+.foundit--see {
+  margin-top : 15vh;
+}
+.foundit--see>a {
+  text-decoration : none;
+  padding : 5px 10px;
+  color : white ;
+  width: 21vw;
+  height : 5vh;
+  border-radius : 3px;
+  color : white;
+  background-color :  #81be17;
+  border : none;
+  -webkit-box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+-moz-box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+box-shadow: 2px 1px 2px 1px rgba(219,212,219,1);
+
+}
+
+.index--email {
+  opacity : 0.6;
+  padding-bottom : 4vh;
+}
+
+.index--password {
+  opacity : 0.6;
+  padding-bottom : 5vh;
+
+}
+
+.foundit {
+  font-weight : 700;
+  opacity : 0.6;
+  padding-top : 20vh;
+  text-align : center;
+  font-size : 25px;
+}
