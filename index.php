@@ -43,6 +43,8 @@ require(MODELS.'model.php');
       $action = (isset($_GET['action']) && in_array($_GET['action'], $valid_actions)) ? $_GET['action'] : "home";
 
       Controller::get()->action($action);
+      //TEMPORY
+      include("views/page_06.php");
     ?>
 
   </body>
